@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main(int argc, char const *argv[])
+{
+    char sub[50];
+    printf("The subject you have taken\n");
+    scanf("%s", sub);
+    printf("you have entered %s as your subject", sub);
+    if (sub == "science" && sub == "maths")
+    {
+        printf("You will be given rupee 45");
+    }
+    else if (sub == "science")
+    {
+        printf("you will be given rupee 15");
+    }
+    else if (sub == "maths")
+    {
+        printf("you will be given rupee 15");
+    }
+    return 0;
+}
