@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main(int argc, char const *argv[])
+{
+    int a=8;
+    const float pi=7.433;
+     // pi=7.333; //cannot do this since pi is a costant
+     printf("tab character \t\t my blackslash %f",pi);
+    //  printf("hello world\n");
+    //  printf("the value of a is %d and the value of b is %13.4f\n",a,b);
+
+
+
+    return 0;
+}
